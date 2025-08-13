@@ -7,13 +7,13 @@ const ClaritySection = () => (
     <div className="max-w-6xl mx-auto px-[32px] max-[768px]:px-[24px] max-[480px]:px-[16px]">
       <div className="text-left mb-[48px] max-[768px]:mb-[36px] max-[480px]:mb-[24px]">
         {/* Desktop and Tablet Heading */}
-        <h2 className="hidden sm:block text-[48px] md:text-[36px] font-bold text-[#363636] mb-[24px] md:mb-[18px] leading-tight whitespace-nowrap">
+        <h2 className="hidden sm:block text-[60px] md:text-[40px] font-bold text-[#363636] mb-[24px] md:mb-[18px] leading-tight whitespace-nowrap">
           For Teams That Need
           <span className="text-[#5563FF] font-bold relative mx-[8px]">
             <img
               src={circleImage}
               alt="Oval around Clarity"
-              className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 pointer-events-none select-none z-0 w-[208px] md:w-[160px] h-[70px] md:h-[54px] object-fill"
+              className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 pointer-events-none select-none z-0 w-[260px] md:w-[200px] h-[87px] md:h-[67px] object-fill"
             />
             <span className="relative z-10">&nbsp;Clarity,&nbsp;</span>
           </span>
