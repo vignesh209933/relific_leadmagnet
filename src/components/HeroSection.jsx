@@ -38,12 +38,12 @@ const HeroSection = () => {
           }}
         >
           {/* Main hero content */}
-          <div className="max-w-4xl mx-auto pt-12 px-4 text-center pb-10">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 leading-tight">
+          <div className="max-w-7xl mx-auto text-center px-[32px] pt-[48px] pb-[40px]">
+            <h1 className="font-bold text-white mb-6 leading-tight text-[60px] max-[768px]:text-[40px] max-[480px]:text-[32px] max-[480px]:whitespace-normal">
               Is Your <span className="text-[#2D1B69] font-bold">NGO</span>{" "}
               Ready for the Digital Age?
             </h1>
-            <h2 className="text-2xl md:text-3xl font-medium text-white mb-8">
+            <h2 className="font-medium text-white mb-10 leading-relaxed text-[48px] max-[768px]:text-[32px] max-[480px]:text-[24px] max-[480px]:whitespace-normal">
               Digital isn't optional. It is{" "}
               <span className="bg-white text-[#363636] px-3 py-2 rounded-lg font-bold shadow-md">
                 essential.
@@ -53,13 +53,13 @@ const HeroSection = () => {
               <img
                 src={infoimg}
                 alt="Digital Dashboard Illustration"
-                className="w-80 md:w-96 lg:w-[450px] drop-shadow-2xl"
+                className="drop-shadow-2xl w-[450px] max-[1024px]:w-[384px] max-[768px]:w-[320px] max-[480px]:w-[256px]"
               />
             </div>
             <div className="text-center w-full mb-8">
               <button
                 onClick={handleDownloadClick}
-                className="relative overflow-hidden px-10 py-4 rounded-lg shadow-lg transition-all duration-300 ease-in-out text-xl font-medium transform hover:scale-105 active:scale-95 cursor-pointer"
+                className="relative overflow-hidden rounded-lg shadow-lg transition-all duration-300 ease-in-out font-medium transform hover:scale-105 active:scale-95 cursor-pointer text-[24px] px-[40px] py-[16px] max-[768px]:text-[20px] max-[768px]:px-[32px] max-[768px]:py-[12px] max-[480px]:text-[18px] max-[480px]:px-[24px] max-[480px]:py-[10px]"
                 style={{
                   background: Colors.Primary_font,
                   color: Colors.Font_4,
@@ -69,8 +69,9 @@ const HeroSection = () => {
                 Download the Guide
               </button>
             </div>
-            <div className="max-w-3xl mx-auto text-center text-[#555] text-xl leading-relaxed">
+            <div className="mx-auto text-center text-[#555] leading-relaxed text-[32px] max-w-[1400px] max-[768px]:text-[24px] max-[768px]:px-[16px] max-[768px]:max-w-[1000px] max-[480px]:text-[20px] max-[480px]:px-[8px] max-[480px]:max-w-[600px]">
               From field data to donor reports, the way you manage your systems
+              <br />
               affects credibility, compliance, and your ability to deliver
               results.
             </div>
